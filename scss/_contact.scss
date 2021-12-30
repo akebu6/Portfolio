@@ -1,6 +1,6 @@
 .contact {
   height: 100%;
-  padding-top: 40vh;
+  padding-top: 25vh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -14,6 +14,26 @@
     url('../images/image.jpg') center top;
   background-size: cover;
 
+  .contact-list {
+    width: 45vw;
+    height: 50vh;
+    border: 1px solid #42baff;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+
+  #fname {
+    width: 200px;
+    height: 30px
+  }
+    
+  #email {
+    width: 200px;
+    height: 30px;
+  }
+
   //targeting h2 in contact class
   h2 {
     font-size: 3rem;
@@ -25,7 +45,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .social-icons {
