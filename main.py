@@ -17,3 +17,22 @@ selected = option_menu(
 # The Projects page view
 
 # The Resume page view
+
+# Contact us form
+st.write('---')
+st.header(':mailbox: Get in touch with me')
+
+contact_form = """
+    <form action="https://formsubmit.co/your@email.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="name" placeholder="Your name"required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" placeholder="Your message here"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    """
+
+st.markdown(contact_form, unsafe_allow_html=True)
+
+# add socials as well
+  
